@@ -5,7 +5,7 @@
 
 Kauma is a tool developed for Cryptoanalysis. It includes various real-world cryptographic implementations and attacks, providing a program for studying and testing cryptographic concepts.
 
-**A performance enhanced version using the PCLMULQDQ will be available soon.**
+**A performance enhanced version using the PCLMULQDQ instruction will be available soon.**
 
 ## Disclaimer
 
@@ -52,7 +52,7 @@ To run all test cases, use the following command:
 
 ```sh
 
-python  run_tests.py
+python run_tests.py
 
 ```
 
