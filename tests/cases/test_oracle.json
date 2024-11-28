@@ -1,0 +1,22 @@
+{
+    "testcases": {
+        "b856d760-023d-4b00-bad2-15d2b6da22fe": {
+            "action": "padding_oracle",
+            "arguments": {
+                "hostname": "server_simulator",
+                "port": 42069,
+                "iv": "AAAAAAAAAAAAAAAAAAAAAA==",
+                "ciphertext": "SWdvaGomUGd7Zm8tLVpneTtFBR9PQXcbFx8QAAA7HgxIZzU7KCsfcHVmOixFWmF5aQxCH1pCahMPTTcmTlJobw=="
+            }
+        },
+        "254eaee7-05fd-with-double-match": {
+            "action": "padding_oracle",
+            "arguments": {
+                "hostname": "server_simulator",
+                "port": 42069,
+                "iv": "AAAAAAAAAAAAAAAAAAAAAA==",
+                "ciphertext": "AgEABwYFBAsKCQgPDwwNEQ=="
+            }
+        }
+    }
+}

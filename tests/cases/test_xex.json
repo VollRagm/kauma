@@ -1,0 +1,22 @@
+{
+    "testcases": {
+        "b856d760-023d-4b00-bad2-15d2b6da22fe": {
+            "action": "xex",
+            "arguments": {
+                "mode": "encrypt",
+                "key": "B1ygNO/CyRYIUYhTSgoUysX5Y/wWLi4UiWaVeloUWs0=",
+                "tweak": "6VXORr+YYHrd2nVe0OlA+Q==",
+                "input": "/aOg4jMocLkBLkDLgkHYtFKc2L9jjyd2WXSSyxXQikpMY9ZRnsJE76e9dW9olZIW"
+            }
+        },
+        "254eaee7-05fd-4e0d-8292-9b658a852245": {
+            "action": "xex",
+            "arguments": {
+                "mode": "decrypt",
+                "key": "B1ygNO/CyRYIUYhTSgoUysX5Y/wWLi4UiWaVeloUWs0=",
+                "tweak": "6VXORr+YYHrd2nVe0OlA+Q==",
+                "input": "lr/ItaYGFXCtHhdPndE65yg7u/GIdM9wscABiiFOUH2Sbyc2UFMlIRSMnZrYCW1a"
+            }
+        }
+    }
+}

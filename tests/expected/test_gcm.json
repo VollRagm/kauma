@@ -1,0 +1,24 @@
+{
+    "responses": {
+        "b856d760-023d-4b00-bad2-15d2b6da22fe": {
+            "ciphertext": "ET3RmvH/Hbuxba63EuPRrw==",
+            "tag": "Mp0APJb/ZIURRwQlMgNN/w==",
+            "L": "AAAAAAAAAEAAAAAAAAAAgA==",
+            "H": "Bu6ywbsUKlpmZXMQyuGAng=="
+        },
+        "254eaee7-05fd-4e0d-8292-9b658a852245": {
+            "ciphertext": "0cI/Wg4R3URfrVFZ0hw/vg==",
+            "tag": "ysDdzOSnqLH0MQ+Mkb23gw==",
+            "L": "AAAAAAAAAEAAAAAAAAAAgA==",
+            "H": "xhFcAUT66qWIpYz+Ch5ujw=="
+        },
+        "abbaba-4d2a-41e3-afe0-a79e1d174781": {
+            "plaintext": "RGFzIGlzdCBlaW4gVGVzdA==",
+            "authentic": true
+        },
+        "affbf4fc-4d2a-41e3-afe0-a79e1d174781": {
+            "plaintext": "AxSiKm93Gr2+",
+            "authentic": false
+        }
+    }
+}

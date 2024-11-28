@@ -1,0 +1,47 @@
+{
+    "testcases": {
+        "b856d760-023d-4b00-bad2-15d2b6da22fe": {
+            "action": "gcm_encrypt",
+            "arguments": {
+                "algorithm": "aes128",
+                "nonce": "4gF+BtR3ku/PUQci",
+                "key": "Xjq/GkpTSWoe3ZH0F+tjrQ==",
+                "plaintext": "RGFzIGlzdCBlaW4gVGVzdA==",
+                "ad": "QUQtRGF0ZW4="
+            }
+        },
+        "254eaee7-05fd-4e0d-8292-9b658a852245": {
+            "action": "gcm_encrypt",
+            "arguments": {
+                "algorithm": "sea128",
+                "nonce": "4gF+BtR3ku/PUQci",
+                "key": "Xjq/GkpTSWoe3ZH0F+tjrQ==",
+                "plaintext": "RGFzIGlzdCBlaW4gVGVzdA==",
+                "ad": "QUQtRGF0ZW4="
+            }
+        },
+        "abbaba-4d2a-41e3-afe0-a79e1d174781": {
+            "action": "gcm_decrypt",
+            "arguments": {
+                "algorithm": "sea128",
+                "nonce": "4gF+BtR3ku/PUQci",
+                "key": "Xjq/GkpTSWoe3ZH0F+tjrQ==",
+                "ciphertext": "0cI/Wg4R3URfrVFZ0hw/vg==",
+                "ad": "QUQtRGF0ZW4=",
+                "tag": "ysDdzOSnqLH0MQ+Mkb23gw=="
+            }
+        },
+        "affbf4fc-4d2a-41e3-afe0-a79e1d174781": {
+            "action": "gcm_decrypt",
+            "arguments": {
+                "algorithm": "sea128",
+                "nonce": "VOkKCCnH4EYE1z4L",
+                "key": "ByMrTiLP7isfBDL7vsKkOQ==",
+                "ciphertext": "UdpDzPAafM+y",
+                "ad": "UknNF3AKBaF/8GUnFUw=",
+                "tag": "sN0+1fG+WSOHMswF7IBnZA=="
+            }
+        }
+       
+    }
+}

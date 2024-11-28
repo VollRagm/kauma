@@ -1,0 +1,106 @@
+{
+    "testcases": {
+        "b856d760-023d-4b00-bad2-15d2b6da22fe": {
+            "action": "gfpoly_add",
+            "arguments": {
+                "A": [
+                    "NeverGonnaGiveYouUpAAA==",
+                    "NeverGonnaLetYouDownAA==",
+                    "NeverGonnaRunAroundAAA==",
+                    "AndDesertYouAAAAAAAAAA=="
+                ],
+                "B": [
+                    "CryptoanalysisAAAAAAAA==",
+                    "TestingGFaddAAAAAAAAAA=="
+                ]
+            }
+        },
+        "zero-add-test": {
+            "action": "gfpoly_add",
+            "arguments": {
+                "A": [
+                    "NeverGonnaGiveYouUpAAA==",
+                    "NeverGonnaLetYouDownAA=="
+                ],
+                "B": [
+                    "AAAAAAAAAAAAAAAAAAAAAA==",
+                    "NeverGonnaLetYouDownAA=="
+                ]
+            }
+        },
+        "254eaee7-05fd-4e0d-8292-9b658a852245": {
+            "action": "gfpoly_mul",
+            "arguments": {
+                "A": [
+                    "JAAAAAAAAAAAAAAAAAAAAA==",
+                    "wAAAAAAAAAAAAAAAAAAAAA==",
+                    "ACAAAAAAAAAAAAAAAAAAAA=="
+                ],
+                "B": [
+                    "0AAAAAAAAAAAAAAAAAAAAA==",
+                    "IQAAAAAAAAAAAAAAAAAAAA=="
+                ]
+            }
+        },
+        "zero-mul-test": {
+            "action": "gfpoly_mul",
+            "arguments": {
+                "A": [
+                    "JAAAAAAAAAAAAAAAAAAAAA==",
+                    "wAAAAAAAAAAAAAAAAAAAAA==",
+                    "ACAAAAAAAAAAAAAAAAAAAA=="
+                ],
+                "B": [
+                    "AAAAAAAAAAAAAAAAAAAAAA=="
+                ]
+            }
+        },
+        "affbf4fc-4d2a-41e3-afe0-a79e1d174781": {
+            "action": "gfpoly_pow",
+            "arguments": {
+                "A": [
+                    "JAAAAAAAAAAAAAAAAAAAAA==",
+                    "wAAAAAAAAAAAAAAAAAAAAA==",
+                    "ACAAAAAAAAAAAAAAAAAAAA=="
+                ],
+                "k": 3
+            }
+        },
+        "affbf4fc-4d2a-41e3-afe0-Hallo": {
+            "action": "gfdiv",
+            "arguments": {
+                "a": "JAAAAAAAAAAAAAAAAAAAAA==",
+                "b": "wAAAAAAAAAAAAAAAAAAAAA=="
+            }
+        },
+        "b856d760-023d-4b00-divmod": {
+            "action": "gfpoly_divmod",
+            "arguments": {
+                "A": [
+                    "JAAAAAAAAAAAAAAAAAAAAA==",
+                    "wAAAAAAAAAAAAAAAAAAAAA==",
+                    "ACAAAAAAAAAAAAAAAAAAAA=="
+                ],
+                "B": [
+                    "0AAAAAAAAAAAAAAAAAAAAA==",
+                    "IQAAAAAAAAAAAAAAAAAAAA=="
+                ]
+            }
+        },
+        "affbf4fc-4d2a-41e3-afe0-powmod": {
+            "action": "gfpoly_powmod",
+            "arguments": {
+                "A": [
+                    "JAAAAAAAAAAAAAAAAAAAAA==",
+                    "wAAAAAAAAAAAAAAAAAAAAA==",
+                    "ACAAAAAAAAAAAAAAAAAAAA=="
+                ],
+                "M": [
+                    "CryptoanalysisAAAAAAAA==",
+                    "TestingGFmodAAAAAAAAAA=="
+                ],
+                "k": 1000
+            }
+        }
+    }
+}

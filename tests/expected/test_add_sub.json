@@ -1,0 +1,13 @@
+{
+    "responses": {
+        "b856d760-023d-4b00-bad2-15d2b6da22fe": {
+            "sum": 357
+        },
+        "254eaee7-05fd-4e0d-8292-9b658a852245": {
+            "sum": 777
+        },
+        "affbf4fc-4d2a-41e3-afe0-a79e1d174781": {
+            "difference": -120213
+        }
+    }
+}

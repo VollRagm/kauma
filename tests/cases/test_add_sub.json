@@ -1,0 +1,25 @@
+{
+    "testcases": {
+        "b856d760-023d-4b00-bad2-15d2b6da22fe": {
+            "action": "add_numbers",
+            "arguments": {
+                "number1": 123,
+                "number2": 234
+            }
+        },
+        "254eaee7-05fd-4e0d-8292-9b658a852245": {
+            "action": "add_numbers",
+            "arguments": {
+                "number1": 333,
+                "number2": 444
+            }
+        },
+        "affbf4fc-4d2a-41e3-afe0-a79e1d174781": {
+            "action": "subtract_numbers",
+            "arguments": {
+                "number1": 999,
+                "number2": 121212
+            }
+        }
+    }
+}
